@@ -27,13 +27,13 @@ curl -o "./plugins/example/仅官机消息追加文本.js" "https://gitee.com/he
 
 <details><summary>添加在开头</summary>
 
-![开头](1.jpg")
+![开头](1.jpg)
 
 </details>
 
 <details><summary>添加在末尾</summary>
 
-![末尾](2.jpg")
+![输入图片说明](2.jpg)
 
 </details>
 
