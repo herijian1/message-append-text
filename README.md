@@ -1,38 +1,43 @@
-# 消息追加文本
+# 💬消息追加文本
 
 #### 介绍
-返回消息时，在消息的开头或末尾添加一段自定义消息
+一个适配TRSS-Yunzai的消息追加文本插件，Miao-Yunzai可用性未做测试，自行探究。可以在触发机器人回复消息时，在消息段落的开头或者末尾添加一段自定义消息。
 
-#### 软件架构
-软件架构说明
+#### 使用方法
 
+1.准备一个TRSS-Yunzai
 
-#### 安装教程
+2.安装本插件
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+如果你想让所有机器人都添加自定义消息，则安装这一个
+```
+curl -o "./plugins/example/消息追加文本.js" "https://gitee.com/herijian/message-append-text/消息追加文本.js"
+```
 
-#### 使用说明
+如果你只是想让QQBot添加自定义消息则选择这一个
+```
+curl -o "./plugins/example/仅官机消息追加文本.js" "https://gitee.com/herijian/message-append-text/仅官机消息追加文本.js"
+```
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+3.如果你想在一段消息的开头添加自定义消息，则在插件的第20行，将`end`修改为`start`
+![插件修改](https://foruda.gitee.com/images/1780199876238196411/9fd4bb76_9320300.jpeg "Screenshot_20260531_115557_bin.mt.plus_edit_112628296166146.jpg")
 
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+#### 效果展示
 
 
-#### 特技
+<details><summary>添加在开头</summary>
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
-![输入图片说明](https://foruda.gitee.com/images/1780199876238196411/9fd4bb76_9320300.jpeg "Screenshot_20260531_115557_bin.mt.plus_edit_112628296166146.jpg")
+![开头](1.jpg")
+
+</details>
+
+<details><summary>添加在末尾</summary>
+
+![末尾](2.jpg")
+
+</details>
+
+
+#### 交流群
+
+[啥都聊的交流群](https://qun.qq.com/universal-share/share?ac=1&authKey=ts39VJMNE9%2FdLZW9dQ5pFl6xqW6r3aIRM0YeX8flKTVP%2Bcv0C71YCBwEx9T4AsuL&busi_data=eyJncm91cENvZGUiOiI3NjgyMTY2ODkiLCJ0b2tlbiI6IjBwMHNmN0xydUxyWVVRcWYwTEl6UEFsV2NwNU5nejl5UThnNy9rZXFFM2kzSUNDdER3WjNtRTgwQlppSkt6LzciLCJ1aW4iOiIzNTEzMDIxNDYifQ%3D%3D&data=_tjjP1afISD-x-5RdgkHeXS41GV-qjNSfYcgMv66JVPzY03c4zRMIHA2Ynlse1oGBuWwSc7kVPxKa0-HWubjwg&svctype=4&tempid=h5_group_info)
