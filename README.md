@@ -25,7 +25,7 @@ curl -o "./plugins/example/仅官机消息追加文本.js" "https://gitee.com/he
 #### 效果展示
 
 
-<details><summary>添加在开头</summary>
+<details><summary>添加在开头~~（这个图片放错了，但我又不想再改插件测试一遍）~~</summary>
 
 ![开头](1.jpg)
 
