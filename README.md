@@ -11,12 +11,12 @@
 
 如果你想让所有机器人都添加自定义消息，则安装这一个
 ```
-curl -o "./plugins/example/消息追加文本.js" "https://gitee.com/herijian/message-append-text/消息追加文本.js"
+curl -o "./plugins/example/消息追加文本.js" "https://github.com/herijian1/message-append-text/消息追加文本.js"
 ```
 
 如果你只是想让QQBot添加自定义消息则选择这一个
 ```
-curl -o "./plugins/example/仅官机消息追加文本.js" "https://gitee.com/herijian/message-append-text/仅官机消息追加文本.js"
+curl -o "./plugins/example/仅官机消息追加文本.js" "https://github.com/herijian1/message-append-text/仅官机消息追加文本.js"
 ```
 
 3.如果你想在一段消息的开头添加自定义消息，则在插件的第20行，将`end`修改为`start`
