@@ -22,16 +22,21 @@ curl -o "./plugins/example/仅官机消息追加文本.js" "https://raw.githubus
 3.如果你想在一段消息的开头添加自定义消息，则在插件的第20行，将`end`修改为`start`
 ![插件修改](https://foruda.gitee.com/images/1780199876238196411/9fd4bb76_9320300.jpeg "Screenshot_20260531_115557_bin.mt.plus_edit_112628296166146.jpg")
 
+#### 常见问题
+
+Q：为什么有的消息没有追加上？
+A：可能是发送的那个消息是用常量拼接的消息。
+
 #### 效果展示
 
 
-<details><summary>添加在开头~~（这个图片放错了，但我又不想再改插件测试一遍）~~</summary>
+<details><summary>添加在末尾</summary>
 
 ![开头](1.jpg)
 
 </details>
 
-<details><summary>添加在末尾</summary>
+<details><summary>添加在开头</summary>
 
 ![输入图片说明](2.jpg)
 
