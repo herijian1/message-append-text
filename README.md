@@ -1,5 +1,7 @@
 # 💬消息追加文本
 
+![访客数](https://count.getloli.com/get/@message-append-text)
+
 #### 介绍
 一个适配TRSS-Yunzai的消息追加文本插件，Miao-Yunzai可用性未做测试，自行探究。可以在触发机器人回复消息时，在消息段落的开头或者末尾添加一段自定义消息。
 
